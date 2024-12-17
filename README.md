@@ -68,4 +68,6 @@ Each intent contains:
 ##responses: Bot responses.
 
 
+#sample ![sample1](https://github.com/user-attachments/assets/90571b1a-3c9a-4b69-8c1a-e95c8ec099ef)
+
 
