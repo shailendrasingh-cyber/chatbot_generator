@@ -61,5 +61,11 @@ Make sure the json file in :-
   ]
 }
 
+Each intent contains:
+
+tag: A unique identifier for the intent.
+patterns: User input examples.
+responses: Bot responses.
+
 
 
