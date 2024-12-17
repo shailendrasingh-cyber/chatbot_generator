@@ -40,61 +40,12 @@
 
 To run this project, you need:
 
-- **Python 3.8+**  
+- **Python 3.11.5 +**  
 - Libraries listed in the `requirements.txt`.  
 
 ### **Install Dependencies**  
 
-Run the following command to install required libraries:  
-
-```bash
-pip install -r requirements.txt
-💻 Installation
-Follow these steps to set up the project:
-
-Clone the Repository
-
-bash
-Copy code
-git clone https://github.com/yourusername/streamlit-chatbot-builder.git
-cd streamlit-chatbot-builder
-Install Dependencies
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the Streamlit Application
-
-bash
-Copy code
-streamlit run chatbot_builder.py
-Open in Browser
-The app will open in your browser, or you can visit:
-
-arduino
-Copy code
-http://localhost:8501
-📤 How to Use
-Upload a JSON Intents File
-
-Click on the "Upload" button to upload your JSON file containing intents.
-Automatic Processing
-
-The app tokenizes, lemmatizes, and processes your data. Progress will be displayed in real-time.
-Train the Model
-
-The app trains a Keras-based deep learning model using the processed data.
-Download Files
-
-A ZIP archive containing all generated files will be available for download.
-Use the Sample Code
-
-Copy the provided sample code to interact with your trained chatbot locally.
-📝 Intents JSON Format
-Your intents JSON file should follow this format:
-
-json
-Copy code
+Make sure the json file in :-
 {
   "intents": [
     {
@@ -109,8 +60,6 @@ Copy code
     }
   ]
 }
-Each intent contains:
 
-tag: A unique identifier for the intent.
-patterns: User input examples.
-responses: Bot responses.
+
+
