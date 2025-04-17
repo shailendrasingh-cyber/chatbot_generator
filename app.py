@@ -12,8 +12,12 @@ from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
 
 # Initialize NLTK downloads
-nltk.download('punkt')
-nltk.download('wordnet')
+# nltk.download('punkt')
+# nltk.download('wordnet')
+
+nltk.download('punkt', download_dir='nltk_data')
+nltk.download('wordnet', download_dir='nltk_data')
+nltk.data.path.append('nltk_data')
 
 # Author Information
 AUTHOR = "Streamlit Chatbot Generator by [Shailendra Singh](https://ssinghportfolio.netlify.app/)"
