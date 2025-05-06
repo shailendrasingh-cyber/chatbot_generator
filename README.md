@@ -71,3 +71,7 @@ Each intent contains:
 #sample ![sample1](https://github.com/user-attachments/assets/90571b1a-3c9a-4b69-8c1a-e95c8ec099ef)
 
 
+
+### For run the api 
+### install the library :- pip install flask flask-cors nltk numpy tensorflow
+### to run the project flask_app.py
